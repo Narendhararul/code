@@ -1,0 +1,56 @@
+/* header nav{
+    background-color: white;
+    
+}
+header div{
+    background-color: rgb(255, 168, 5);
+}
+
+.right h1{
+    font-family: Qwigley, sans-serif;
+    color: #ffffff;
+    line-height: 100px;
+    font-weight: normal;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-bottom: 0;
+}
+
+.right p{
+   font-family: Source Sans pro, sans-serif;
+   color: black;
+   font-size: 13px;
+   padding-left: 100px;
+} */
+
+body {
+    background-color: #fcb933;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.shop-name {
+    font-family: Qwigley, sans-serif;
+    font-size: 27px;
+    color: #fcb933;
+    font-weight: bold;
+}
+
+.location {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+.location img {
+    height: 12px;
+}
+
