@@ -167,7 +167,7 @@ p {
 }
 
 .delivery.active {
-    background-color: F17228;
+    background-color: #ffeadf;
     color: #ff9900;
 }
 
@@ -179,7 +179,7 @@ p {
 
 .input-box {
     display: flex;
-    border: 1px solid #ddd;
+    border: #ddd;
     border-radius: 5px;
     overflow: hidden;
 }
