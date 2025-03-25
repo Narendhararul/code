@@ -64,7 +64,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fcbf49;
+   
 }
 
 /* Navbar Styles */
@@ -74,14 +74,14 @@ body {
     align-items: center;
     background-color: white;
     padding: 15px 50px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -22px;
 }
 
 .logo {
     font-family: Qwigley, sans-serif;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
-    color: #ff6600;
+    color: #FFB30E;
 }
 
 .location {
@@ -110,7 +110,11 @@ body {
 .search-btn {
     background: none;
     color: #444;
-    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.search-btn img {
+    width: 12px;
 }
 
 .login-btn {
@@ -122,11 +126,12 @@ body {
 
 /* Header Section */
 .header {
+    background-color: #FDBE35;
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 50px auto;
+    margin: auto;
     padding: 20px;
+    
 }
 
 .header-content {
@@ -138,7 +143,7 @@ body {
 h1 {
     font-family: Qwigley, sans-serif;
     display: flex;
-    font-size: 34px;
+    font-size: 64px;
     line-height: 100%;
     font-weight: lighter;
     color: white;
@@ -146,6 +151,7 @@ h1 {
 
 p {
     font-family: source-sans-pro, sans-serif;
+    color: #655f5f;
     display: flex;
     font-size: 16px;
     margin-bottom: 20px;
@@ -154,10 +160,9 @@ p {
 /* Search Box */
 .search-box {
     background: white;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 15px ;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     gap: 10px;
 }
 
@@ -168,6 +173,7 @@ p {
 
 .delivery {
     padding: 6px 10px;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -186,6 +192,8 @@ p {
 .pickup {
     align-items: center;
     font-size: 16px;
+    font-weight: bold;
+    color: #615e5e;
     background-color: white;
     border: none;
 }
